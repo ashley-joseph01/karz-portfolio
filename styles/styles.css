@@ -1,0 +1,96 @@
+/* COLORS */
+
+/* FONTS */
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* SPECIFICS */
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    border: 5px solid brown;
+}
+
+nav {
+    margin: 50px;
+    padding: 20px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav li {
+        text-decoration: none;
+    }
+
+section {
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+    margin-top: auto;
+
+    border: 5px solid burlywood;
+}
+
+    .footer-left {
+        display: flex;
+        padding: 5px;
+
+        border: 2px solid blue;
+    }
+
+    .footer-middle {
+        padding: 5px;
+
+        border: 2px solid red;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+
+        border: 2px solid green;
+    }
+
+        .footer-signature {
+
+        }   
+
+        .footer-signature a {
+
+        }
+
+    .footer-info {
+
+    }
+    
+
+  
+        
